@@ -1,0 +1,54 @@
+<html><head>
+    <title>form</title>
+</head>
+    <body>
+        <form  action="form.php" method="post">fill the form
+        <dir>
+    <label for="fname">first name</label>
+    <input type="text" id="fname" name="fname" placeholder="frist name" required>
+       </dir>
+
+    <dir>
+        <label for="lname">last name</label>
+        <input type="text" id="lname" name="lname" placeholder="last name" required>
+    </dir>
+    <dir>
+        <label for="user">user name</label>
+        <input type="text" id="user" name="user" placeholder="user name" required>
+    </dir>
+    <dir>
+        <label for="pass">password</label>
+        <input type="password" id="pass" name="pass" placeholder="password" required> 
+    </dir>
+    <dir>
+    <label for="teliphone">phone number</label>
+     <input type="tel" id="teliphone" name="teliphone" placeholder="(012) 3456789" required>
+    </dir>
+   <dir>
+    <label for="bdate">birthdate</label>
+    <input type="date" id="bdate" name="birthdate" required>
+   </dir>
+   <dir>
+    <label for="title">gander :</label>
+    <label for="male">male</label>
+    <input type="radio" id="male" name="title" value="male">
+    <label for="female">female</label>
+    <input type="radio" id="female" name="title" value="female">
+      </dir>
+    <dir>
+     <label for="select">your payment : e</label>
+    <select name="payment" id="select">
+    <option value="visa">visa</option>
+    <option value="master">master</option>
+    <option value="gitcard">git card</option>
+    </select>
+    </dir>
+
+    <dir>
+   <input type="submit" value="Submit">
+   <input type="reset">
+
+    </dir>
+</form>
+    </body>
+</html>
